@@ -1,4 +1,6 @@
-# Sitio Web Colegio Quiñones
+Nombre del alumno: Benjamin Anthony Tello Alvarez
+
+Sitio Web Colegio Quiñones
 
 Este proyecto es para la evaluacion 04 del curso de Diseño y Desarrollo Web de ISIL.
 
@@ -10,22 +12,33 @@ Características principales
 - Animaciones CSS con @keyframes en títulos, imágenes e íconos.
 - Diseño responsive (desktop, tablet, móvil).
 - Banner animado con plugin jQuery Slick Slider.
-- Enlaces a redes sociales.
+- Iconos de redes sociales con Font Awesome.
 
 Ver sitio en línea
 
 https://benjaminata.github.io/colegio-qui-onez-web/
 
-Estructura del repositorio
-/css/style.css
-/imagen/logo.png, colegio.jpeg, imagenDeslizable-1, imagenDeslizable-2, imagenDeslizable-3
-index.html
-README.md
+Estructura del proyecto
+
+/proyecto-colegio/
+│
+├── index.html
+├── /css/
+│ └── style.css
+├── /imagen/
+│ ├── logo.png
+│ ├── colegio.jpeg
+│ ├── imagenDeslizable-1.jpg
+│ ├── imagenDeslizable-2.jpg
+│ └── imagenDeslizable-3.jpg
+├── favicon/
+│ └── colegio.ico.png
 
 
 Tecnologías usadas
 
 - HTML5 + CSS3
 - Google Fonts
-- jQuery + Slick Slider
+- jQuery
+- Slick Carousel
 - GitHub Pages
