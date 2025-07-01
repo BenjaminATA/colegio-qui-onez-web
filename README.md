@@ -1,9 +1,10 @@
 # Sitio Web Colegio Quiñones
 
 Este proyecto es para la evaluacion 04 del curso de Diseño y Desarrollo Web de ISIL.
+
 Características principales
 
-- Paleta de colores azul marino y amarillo dorado.
+- Paleta de colores azul marino y blanco.
 - Tipografía moderna: Poppins.
 - Navegación clara con anclas internas.
 - Animaciones CSS con @keyframes en títulos, imágenes e íconos.
@@ -13,7 +14,7 @@ Características principales
 
 Ver sitio en línea
 
-(https://TUUSUARIO.github.io/NOMBRE-DEL-REPOSITORIO)
+https://benjaminata.github.io/colegio-qui-onez-web/
 
 Estructura del repositorio
 /css/style.css
