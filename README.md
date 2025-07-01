@@ -20,8 +20,6 @@ https://benjaminata.github.io/colegio-qui-onez-web/
 
 Estructura del proyecto
 
-/proyecto-colegio/
-│
 ├── index.html
 ├── /css/
 │ └── style.css
