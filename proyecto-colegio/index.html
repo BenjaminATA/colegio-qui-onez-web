@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colegio Quiñones</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon/colegio.ico.png" type="image/png">
+
+  <!-- Fuente y Estilos -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Slick Slider CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+
+  <!-- Cabecera con logo y menú -->
+  <header>
+    <img src="imagen/logo.png" alt="Logo del Colegio" />
+    <nav>
+      <ul>
+        <li><a href="#">Información Personal</a></li>
+        <li><a href="#">Servicio Educativo</a></li>
+        <li><a href="#">Infraestructura</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de bienvenida -->
+  <section class="bienvenida">
+    <h1>Bienvenidos</h1>
+    <img src="imagen/logo.png" alt="Logo del Colegio" />
+  </section>
+
+  <!-- Presentación institucional -->
+  <section class="imagen-bienvenida">
+    <div class="contenido">
+      <div class="texto">
+        <h2>Bienvenidos a nuestra institución</h2>
+        <p>
+          En nuestro colegio nos esforzamos por brindar una educación de calidad,
+          fomentando valores, conocimiento y el desarrollo integral de cada
+          estudiante. ¡Ven a visitarnos!
+        </p>
+      </div>
+      <img src="imagen/colegio.jpeg" alt="Bienvenida Colegio" />
+    </div>
+  </section>
+
+  <!-- Slider dinámico con Slick -->
+  <section class="banner-slider">
+    <div><img src="imagen/imagenDeslizable-1.jpg" alt="Banner 1"></div>
+    <div><img src="imagen/imagenDeslizable-2.jpg" alt="Banner 2"></div>
+    <div><img src="imagen/imagenDeslizable-3.jpg" alt="Banner 3"></div>
+  </section>
+
+  <!-- Accesos rápidos -->
+  <section class="accesos-directos">
+    <div><a href="#">Contáctanos</a></div>
+    <div><a href="#">Admisión</a></div>
+    <div><a href="#">Informes</a></div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <div class="footer-contenido">
+      <div class="footer-logo">
+        <img src="imagen/logo.png" alt="Logo de la Institución" />
+      </div>
+      <div class="footer-texto">
+        <p>&copy; 2025 Colegio Quiñones. Todos los derechos reservados.</p>
+      </div>
+      <div class="redes-sociales">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery y Slick Slider JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.banner-slider').slick({
+        autoplay: true,
+        dots: true,
+        arrows: false,
+        autoplaySpeed: 3000,
+        infinite: true,
+        fade: true,
+        cssEase: 'linear'
+      });
+    });
+  </script>
+</body>
+</html>
