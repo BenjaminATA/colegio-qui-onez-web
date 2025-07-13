@@ -2,7 +2,7 @@ Nombre del alumno: Benjamin Anthony Tello Alvarez
 
 Sitio Web Colegio Quiñones
 
-Este proyecto es para la evaluacion 04 del curso de Diseño y Desarrollo Web de ISIL.
+Este proyecto es para la evaluacion Final del curso de Diseño y Desarrollo Web de ISIL.
 
 Características principales
 
@@ -21,17 +21,25 @@ https://benjaminata.github.io/colegio-qui-onez-web/
 Estructura del proyecto
 
 ├── index.html
+├── informacion.html
+├── servicio.html
+├── infraestructura.html
+├── contactanos.html
+├── admision.html
+├── informes.html
 ├── /css/
 │ └── style.css
 ├── /imagen/
 │ ├── logo.png
 │ ├── colegio.jpeg
+│ ├── personal.jpg
+│ ├── aula.jpg
+│ ├── infraestructura.jpg
 │ ├── imagenDeslizable-1.jpg
 │ ├── imagenDeslizable-2.jpg
 │ └── imagenDeslizable-3.jpg
-├── favicon/
+├── /favicon/
 │ └── colegio.ico.png
-
 
 Tecnologías usadas
 
